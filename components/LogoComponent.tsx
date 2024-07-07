@@ -14,8 +14,8 @@ export default function LogoComponent({logotype, logoHeight, logoWidth}:Props) {
         return (
             <div>
                  <Image
-                    width={logoHeight}
-                    height={logoWidth}
+                    width={logoWidth}
+                    height={logoHeight}
                     src={companyLogoDark}
                     alt='Company logo'
                  />
@@ -25,8 +25,8 @@ export default function LogoComponent({logotype, logoHeight, logoWidth}:Props) {
         return (
             <div>
                  <Image
-                    width={logoHeight}
-                    height={logoWidth}
+                    width={logoWidth}
+                    height={logoHeight}
                     src={companyLogoLight}
                     alt='Company logo'
                  />
