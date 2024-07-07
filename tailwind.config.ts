@@ -16,8 +16,8 @@ const config: Config = {
         'light-blue': '#666CA3',
         'gradient-pink': '#F02AA6',
         'gradient-orange': '#FF6F48',
-        'gradient-pink-two': '#4851FF',
-        'gradient-blue': '#F02AA6'
+        'gradient-pink-two': '#F02AA6',
+        'gradient-blue': '#4851FF'
     },
     extend: {
       backgroundImage: {
