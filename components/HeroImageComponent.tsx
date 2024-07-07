@@ -1,8 +1,3 @@
-import Image from "next/image"
-
-import imageMobile from "../public/assets/image-hero-mobile@2x.webp"
-import imageTablet from "../public/assets/image-hero-tablet@2x.webp"
-import imageDesktop from "../public/assets/image-hero-desktop@2x.webp"
 
 interface Props {
     imagetype:string;
@@ -10,26 +5,13 @@ interface Props {
 
 export default function HeroImageComponent({imagetype}:Props) {
 
-    if(imagetype === 'mobile') {
-        return (
-            <div>
-                <Image src={imageMobile} alt="Hero image" width={253} height={253}/>
-            </div>
-        )
-    } else if(imagetype === 'tablet') {
-        return (
-            <div>
-                <Image src={imageTablet} alt="Hero image" width={640.71} height={640}/>
-            </div>
-        )
-    } else {
-        return (
-            <div>
-                <Image src={imageDesktop} alt="Hero image" width={991.63} height={936.92}/>
-            </div>
-        )
-    }
-
-
+    return (
+        <div className="
+        bg-hero-image-mobile h-[254px] w-[253px] 
+        md:bg-hero-image-tablet md:h-[640.71px] md:w-[640px]
+        lg:bg-hero-image-desktop lg:h-[991.63px] lg:w-[936.92px]
+        bg-cover
+        "></div>
+    )
     
 }
