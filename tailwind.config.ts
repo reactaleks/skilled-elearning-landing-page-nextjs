@@ -22,8 +22,10 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'hero-image-mobile': 'url(../public/assets/image-hero-mobile@2x.webp)',
+        'hero-image-tablet': 'url(../public/assets/image-hero-tablet@2x.webp)',
+        'hero-image-desktop': 'url(../public/assets/image-hero-desktop@2x.webp)',
       },
       fontFamily: {
         'jakarta': 'Jakarta'
