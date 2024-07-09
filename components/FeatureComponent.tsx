@@ -17,9 +17,9 @@ export default function FeatureComponent({
         <Image width={56} height={56} src={featureImage} alt="Feature Logo" />
       </div>
       <div className="">
-        <h3 className="text-2xl font-bold ">{featureTitle}</h3>
-        <p className="text-base text-gray mt-4">{featureText}</p>
-        <div className="text-dark-pink mt-6 font-bold text-[18px] hover:text-opacity-50">Get Started</div>
+        <h3 className="text-headings font-bold leading-headings">{featureTitle}</h3>
+        <p className="text-main text-gray mt-4 leading-main">{featureText}</p>
+        <div className="text-dark-pink mt-6 font-bold text-main hover:text-opacity-50">Get Started</div>
       </div>
     </div>
   );

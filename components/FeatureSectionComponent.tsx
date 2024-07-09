@@ -9,14 +9,12 @@ import iconPhotography from "../public/assets/icon-photography.svg";
 export default function FeatureSectionComponent() {
   return (
     <div
-      className="bg-gradient-to-t from-[#EFF1FF] via-95% pb-24
-        w-screen
-        
+      className="bg-gradient-to-t from-[#EFF1FF] via-95% pb-24 
         "
     >
-      <div className="md:grid md:grid-cols-2
+      <div className="md:grid md:grid-cols-2 
         md:w-[689px] md:mx-auto
-        lg:grid-cols-3 lg:w-[1110px] lg:mx-auto">
+        xl:grid-cols-3 xl:w-[1110px] xl:mx-auto lg:gap-6 md:gap-2">
         <CallToActionComponent callToActionText="Check out our most popular courses!" />
         <FeatureComponent
           featureImage={iconAnimation}

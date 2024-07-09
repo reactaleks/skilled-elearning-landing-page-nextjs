@@ -19,6 +19,7 @@ const config: Config = {
         'gradient-pink-two': '#F02AA6',
         'gradient-blue': '#4851FF'
     },
+    
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -30,7 +31,25 @@ const config: Config = {
       fontFamily: {
         'jakarta': 'Jakarta'
       },
-
+      fontSize: {
+        'headingxl': '56px',
+        'headingl': '40px',
+        'headingm': '32px',
+        'headings': '24px',
+        'mainm': '18px',
+        'main': '16px',
+      },
+      screens: {
+        '4k': '2560px',
+      },
+      lineHeight: {
+        'headingxl': '70px',
+        'headingl': '51px',
+        'headingm': '40px',
+        'headings': '28px',
+        'main': '28px',
+        
+      }
     },
   },
   plugins: [],
