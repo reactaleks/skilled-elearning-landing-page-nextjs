@@ -4,18 +4,15 @@ import companyLogoLight from '../public/assets/logo-light.svg'
 
 interface Props {
     logotype:string;
-    logoHeight:number;
-    logoWidth:number;
 }
 
-export default function LogoComponent({logotype, logoHeight, logoWidth}:Props) {
+export default function LogoComponent({logotype}:Props) {
 
     if(logotype === 'dark') {
         return (
             <div>
                  <Image
-                    width={logoWidth}
-                    height={logoHeight}
+                    className="w-[89px] h-[25px] xl:w- [105px] xl:h-[25px]"
                     src={companyLogoDark}
                     alt='Company logo'
                  />
@@ -25,8 +22,7 @@ export default function LogoComponent({logotype, logoHeight, logoWidth}:Props) {
         return (
             <div>
                  <Image
-                    width={logoWidth}
-                    height={logoHeight}
+                    className="w-[89px] h-[25px] xl:w-[105px] xl:h-[25px]"
                     src={companyLogoLight}
                     alt='Company logo'
                  />

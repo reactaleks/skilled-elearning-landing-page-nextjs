@@ -14,7 +14,7 @@ export default function FeatureSectionComponent() {
     >
       <div className="md:grid md:grid-cols-2 
         md:w-[689px] md:mx-auto
-        xl:grid-cols-3 xl:w-[1110px] xl:mx-auto lg:gap-6 md:gap-2">
+        xl:grid-cols-3 xl:w-[1110px] xl:mx-auto lg:gap-6 md:gap-4 ">
         <CallToActionComponent callToActionText="Check out our most popular courses!" />
         <FeatureComponent
           featureImage={iconAnimation}
