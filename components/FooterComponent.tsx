@@ -5,7 +5,7 @@ export default function FooterComponent() {
     <footer className="flex justify-center  bg-dark-blue">
       <div className=" flex flex-row justify-between items-center w-[343px] h-[120px]  mt-4
       md:w-[689px] xl:w-[1110px]">
-        <LogoComponent logotype="light" logoWidth={89} logoHeight={35} />
+        <LogoComponent logotype="light"/>
         <ButtonComponent buttonType="footer" />
       </div>
     </footer>
